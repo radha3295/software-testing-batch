@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="sanitysuite">
+  <test thread-count="5" name="highpriority">
+    <classes>
+      <class name="com.souceDemo.TestPakage.TC02Verify_Logout_functionality"/>
+      <!--class name="com.souceDemo.TestPakage.TC01VerifyLoginfuctionality"-->
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Regressionsuite">
+    <classes>
+      <class name="com.souceDemo.TestPakage.TC03Verify_addtocartsingleproduct"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

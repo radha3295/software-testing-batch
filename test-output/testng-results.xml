@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-07T18:22:59 IST" name="Regressionsuite" finished-at="2022-08-07T18:23:16 IST" duration-ms="16790">
+    <groups>
+    </groups>
+    <test started-at="2022-08-07T18:22:59 IST" name="HighPrioritytestsuite" finished-at="2022-08-07T18:23:16 IST" duration-ms="16790">
+      <class name="com.souceDemo.TestPakage.TC03Verify_addtocartsingleproduct">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.souceDemo.TestPakage.TC03Verify_addtocartsingleproduct@5403f35f]" started-at="2022-08-07T18:22:59 IST" name="setUp" finished-at="2022-08-07T18:23:14 IST" duration-ms="14856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_addtocart_product()[pri:0, instance:com.souceDemo.TestPakage.TC03Verify_addtocartsingleproduct@5403f35f]" started-at="2022-08-07T18:23:14 IST" name="verify_addtocart_product" finished-at="2022-08-07T18:23:15 IST" duration-ms="799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_addtocart_product -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.souceDemo.TestPakage.TC03Verify_addtocartsingleproduct@5403f35f]" started-at="2022-08-07T18:23:15 IST" name="tearDown" finished-at="2022-08-07T18:23:16 IST" duration-ms="1071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.souceDemo.TestPakage.TC03Verify_addtocartsingleproduct -->
+      <class name="com.souceDemo.TestPakage.TC05Verify_that_product_select_by_filter">
+        <test-method signature="verify_product_filter()[pri:0, instance:com.souceDemo.TestPakage.TC05Verify_that_product_select_by_filter@2c35e847]" started-at="2022-08-07T18:22:59 IST" name="verify_product_filter" finished-at="2022-08-07T18:23:14 IST" duration-ms="15222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_product_filter -->
+      </class> <!-- com.souceDemo.TestPakage.TC05Verify_that_product_select_by_filter -->
+    </test> <!-- HighPrioritytestsuite -->
+  </suite> <!-- Regressionsuite -->
+</testng-results>

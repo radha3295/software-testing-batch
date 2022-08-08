@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regressionsuite">
+  <test parallel="classes" thread-count="2" name="HighPrioritytestsuite">
+    <classes>
+      <class name="com.souceDemo.TestPakage.TC03Verify_addtocartsingleproduct"/>
+       <class name="com.souceDemo.TestPakage.TC05Verify_that_product_select_by_filter"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
